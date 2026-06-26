@@ -1,0 +1,73 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2026-06-26 08:02:58.634178",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "loan_period_days",
+  "fine_per_day",
+  "column_break_xgnr",
+  "fine_income_account",
+  "fine_receivable_account"
+ ],
+ "fields": [
+  {
+   "default": "14",
+   "description": "Number of days a member can keep a book before it becomes overdue",
+   "fieldname": "loan_period_days",
+   "fieldtype": "Int",
+   "label": "Loan Period (Days)"
+  },
+  {
+   "default": "5",
+   "fieldname": "fine_per_day",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Fine Per Day",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_xgnr",
+   "fieldtype": "Column Break"
+  },
+  {
+   "description": "GL account for Library Fine Income",
+   "fieldname": "fine_income_account",
+   "fieldtype": "Link",
+   "label": "Fine Income Account",
+   "options": "Account"
+  },
+  {
+   "description": "GL account for Fine Receivables from members",
+   "fieldname": "fine_receivable_account",
+   "fieldtype": "Link",
+   "label": "Fine Receivable Account",
+   "options": "Account"
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2026-06-26 08:05:10.518304",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Library Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "Library Administrator",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

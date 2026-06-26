@@ -7,7 +7,15 @@ app_license = "mit"
 
 # Apps
 # ------------------
+# Modules
+modules = ["Library Management"]
 
+# Scheduler — runs overdue detection every day at midnight
+scheduler_events = {
+    "daily": [
+        "library_management.tasks.mark_overdue_issues"
+    ]
+}
 # required_apps = []
 
 # Each item in the list will be shown as an app in the apps page
