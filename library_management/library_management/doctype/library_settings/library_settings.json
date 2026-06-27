@@ -9,7 +9,7 @@
   "fine_per_day",
   "column_break_xgnr",
   "fine_income_account",
-  "fine_receivable_account"
+  "receivable_account"
  ],
  "fields": [
   {
@@ -40,7 +40,7 @@
   },
   {
    "description": "GL account for Fine Receivables from members",
-   "fieldname": "fine_receivable_account",
+   "fieldname": "receivable_account",
    "fieldtype": "Link",
    "label": "Fine Receivable Account",
    "options": "Account"
@@ -50,7 +50,7 @@
  "index_web_pages_for_search": 1,
  "issingle": 1,
  "links": [],
- "modified": "2026-06-26 08:05:10.518304",
+ "modified": "2026-06-27 06:48:21.758691",
  "modified_by": "Administrator",
  "module": "Library Management",
  "name": "Library Settings",

@@ -1,0 +1,26 @@
+[
+ {
+  "category_name": "Science",
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Book Category",
+  "modified": "2026-06-27 06:46:54.030647",
+  "name": "Science"
+ },
+ {
+  "category_name": "Fiction",
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Book Category",
+  "modified": "2026-06-27 12:44:21.608620",
+  "name": "Fiction"
+ },
+ {
+  "category_name": "Technology",
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Book Category",
+  "modified": "2026-06-27 12:44:21.621756",
+  "name": "Technology"
+ }
+]
