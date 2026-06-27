@@ -1,0 +1,252 @@
+[
+ {
+  "add_total_row": 0,
+  "add_translate_data": 0,
+  "columns": [],
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Report",
+  "filters": [],
+  "is_standard": "Yes",
+  "javascript": null,
+  "json": null,
+  "letter_head": null,
+  "modified": "2026-06-27 06:51:58.523604",
+  "module": "Library Management",
+  "name": "Fine Collection Report",
+  "prepared_report": 0,
+  "query": null,
+  "ref_doctype": "Library Fine",
+  "reference_report": null,
+  "report_name": "Fine Collection Report",
+  "report_script": null,
+  "report_type": "Script Report",
+  "roles": [
+   {
+    "parent": "Fine Collection Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Library Administrator"
+   },
+   {
+    "parent": "Fine Collection Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Library Staff"
+   },
+   {
+    "parent": "Fine Collection Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounts Staff"
+   },
+   {
+    "parent": "Fine Collection Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Management"
+   }
+  ],
+  "timeout": 0
+ },
+ {
+  "add_total_row": 0,
+  "add_translate_data": 0,
+  "columns": [],
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Report",
+  "filters": [],
+  "is_standard": "Yes",
+  "javascript": null,
+  "json": null,
+  "letter_head": null,
+  "modified": "2026-06-27 06:52:59.280825",
+  "module": "Library Management",
+  "name": "Overdue Books Report",
+  "prepared_report": 0,
+  "query": null,
+  "ref_doctype": "Library Fine",
+  "reference_report": null,
+  "report_name": "Overdue Books Report",
+  "report_script": null,
+  "report_type": "Script Report",
+  "roles": [
+   {
+    "parent": "Overdue Books Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Library Administrator"
+   },
+   {
+    "parent": "Overdue Books Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Library Staff"
+   },
+   {
+    "parent": "Overdue Books Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounts Staff"
+   },
+   {
+    "parent": "Overdue Books Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Management"
+   }
+  ],
+  "timeout": 0
+ },
+ {
+  "add_total_row": 0,
+  "add_translate_data": 0,
+  "columns": [],
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Report",
+  "filters": [],
+  "is_standard": "Yes",
+  "javascript": null,
+  "json": null,
+  "letter_head": null,
+  "modified": "2026-06-27 06:53:41.898541",
+  "module": "Library Management",
+  "name": "Member Activity Report",
+  "prepared_report": 0,
+  "query": null,
+  "ref_doctype": "Library Fine",
+  "reference_report": null,
+  "report_name": "Member Activity Report",
+  "report_script": null,
+  "report_type": "Script Report",
+  "roles": [
+   {
+    "parent": "Member Activity Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Library Administrator"
+   },
+   {
+    "parent": "Member Activity Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Library Staff"
+   },
+   {
+    "parent": "Member Activity Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounts Staff"
+   },
+   {
+    "parent": "Member Activity Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Management"
+   }
+  ],
+  "timeout": 0
+ },
+ {
+  "add_total_row": 0,
+  "add_translate_data": 0,
+  "columns": [],
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Report",
+  "filters": [],
+  "is_standard": "Yes",
+  "javascript": null,
+  "json": null,
+  "letter_head": null,
+  "modified": "2026-06-27 06:54:20.727680",
+  "module": "Library Management",
+  "name": "Book Utilization Report",
+  "prepared_report": 0,
+  "query": null,
+  "ref_doctype": "Library Fine",
+  "reference_report": null,
+  "report_name": "Book Utilization Report",
+  "report_script": null,
+  "report_type": "Script Report",
+  "roles": [
+   {
+    "parent": "Book Utilization Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Library Administrator"
+   },
+   {
+    "parent": "Book Utilization Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Library Staff"
+   },
+   {
+    "parent": "Book Utilization Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounts Staff"
+   },
+   {
+    "parent": "Book Utilization Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Management"
+   }
+  ],
+  "timeout": 0
+ },
+ {
+  "add_total_row": 0,
+  "add_translate_data": 0,
+  "columns": [],
+  "disabled": 0,
+  "docstatus": 0,
+  "doctype": "Report",
+  "filters": [],
+  "is_standard": "Yes",
+  "javascript": null,
+  "json": null,
+  "letter_head": null,
+  "modified": "2026-06-27 06:56:04.938766",
+  "module": "Library Management",
+  "name": "Outstanding Fines Summary Report",
+  "prepared_report": 0,
+  "query": null,
+  "ref_doctype": "Library Fine",
+  "reference_report": null,
+  "report_name": "Outstanding Fines Summary Report",
+  "report_script": null,
+  "report_type": "Script Report",
+  "roles": [
+   {
+    "parent": "Outstanding Fines Summary Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Library Administrator"
+   },
+   {
+    "parent": "Outstanding Fines Summary Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Library Staff"
+   },
+   {
+    "parent": "Outstanding Fines Summary Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Accounts Staff"
+   },
+   {
+    "parent": "Outstanding Fines Summary Report",
+    "parentfield": "roles",
+    "parenttype": "Report",
+    "role": "Management"
+   }
+  ],
+  "timeout": 0
+ }
+]

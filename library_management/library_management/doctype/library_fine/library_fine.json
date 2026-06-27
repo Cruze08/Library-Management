@@ -1,0 +1,204 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "LF-.YYYY.-.####",
+ "creation": "2026-06-27 06:36:14.407407",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_p8vb",
+  "amended_from",
+  "member",
+  "book_issue",
+  "column_break_mrcv",
+  "overdue_days",
+  "fine_per_day",
+  "total_fine",
+  "payment_section",
+  "paid_amount",
+  "outstanding_amount",
+  "status",
+  "column_break_kytf",
+  "journal_entry",
+  "waiver_section",
+  "waiver_amount",
+  "waiver_reason"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_p8vb",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Library Fine",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "member",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Member",
+   "options": "Library Member",
+   "reqd": 1
+  },
+  {
+   "fieldname": "book_issue",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Book Issue",
+   "options": "Book Issue",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_mrcv",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "overdue_days",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "Overdue Days",
+   "read_only": 1
+  },
+  {
+   "fieldname": "fine_per_day",
+   "fieldtype": "Currency",
+   "label": "Fine Per Day",
+   "read_only": 1
+  },
+  {
+   "fieldname": "total_fine",
+   "fieldtype": "Currency",
+   "label": "Total Fine",
+   "read_only": 1
+  },
+  {
+   "fieldname": "payment_section",
+   "fieldtype": "Section Break",
+   "label": "Payment"
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "0",
+   "fieldname": "paid_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Paid Amount",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "outstanding_amount",
+   "fieldtype": "Currency",
+   "label": "Outstanding Amount",
+   "read_only": 1
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "Unpaid",
+   "fieldname": "status",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Status",
+   "options": "Unpaid\nPartially Paid\nPaid\nWaived",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_kytf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "waiver_section",
+   "fieldtype": "Section Break",
+   "label": "Waiver"
+  },
+  {
+   "allow_on_submit": 1,
+   "default": "0",
+   "fieldname": "waiver_amount",
+   "fieldtype": "Currency",
+   "label": "Waiver Amount"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "waiver_reason",
+   "fieldtype": "Small Text",
+   "label": "Waiver Reason"
+  },
+  {
+   "allow_on_submit": 1,
+   "fieldname": "journal_entry",
+   "fieldtype": "Link",
+   "label": "Journal Entry (Fine Raised)",
+   "options": "Journal Entry",
+   "read_only": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-06-27 06:47:49.818311",
+ "modified_by": "Administrator",
+ "module": "Library Management",
+ "name": "Library Fine",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Library Administrator",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  },
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Library Staff",
+   "share": 1,
+   "write": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Accounts Staff",
+   "share": 1
+  },
+  {
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "Management",
+   "share": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

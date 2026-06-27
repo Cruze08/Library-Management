@@ -255,3 +255,34 @@ scheduler_events = {
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+# hooks.py
+
+fixtures = [
+    # Book Category — filter by name pattern, no module field
+    {
+        "dt": "Book Category",
+        "filters": [["category_name", "in", [
+            "Science", "Fiction", "Technology", "History", "Self Help"
+        ]]]
+    },
+
+    # Roles
+    {
+        "dt": "Role",
+        "filters": [["role_name", "in", [
+            "Library Administrator",
+            "Library Staff",
+            "Accounts Staff",
+            "Management"
+        ]]]
+    },
+
+    # These doctypes DO have a module field — keep as is
+    {"dt": "Number Card",     "filters": [["module", "=", "Library Management"]]},
+    {"dt": "Dashboard Chart", "filters": [["module", "=", "Library Management"]]},
+    {"dt": "Dashboard",       "filters": [["module", "=", "Library Management"]]},
+    {"dt": "Report",          "filters": [["module", "=", "Library Management"]]},
+]
+
+# ── Demo data hook — runs after install ───────────────────────────────
+after_install = "library_management.setup.after_install"
