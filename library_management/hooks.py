@@ -276,11 +276,33 @@ fixtures = [
             "Management"
         ]]]
     },
-
+    {
+        "dt": "Dashboard",
+        "filters": [
+            ["name", "=", "Library Dashboard"]
+        ]
+    },
+    {
+        "dt": "Dashboard Chart",
+        "filters": [
+            ["name", "in", [
+                "Book Issue Trend",
+                "Final Collection Trend"
+            ]]
+        ]
+    },
+    {
+        "dt": "Number Card",
+        "filters": [
+            ["name", "in", [
+                "Total Book",
+                "Books Currently Issued",
+                "Overdue Books",
+                "Active Members"
+            ]]
+        ]
+    },
     # These doctypes DO have a module field — keep as is
-    {"dt": "Number Card",     "filters": [["module", "=", "Library Management"]]},
-    {"dt": "Dashboard Chart", "filters": [["module", "=", "Library Management"]]},
-    {"dt": "Dashboard",       "filters": [["module", "=", "Library Management"]]},
     {"dt": "Report",          "filters": [["module", "=", "Library Management"]]},
 ]
 
