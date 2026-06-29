@@ -1,1 +1,55 @@
-[]
+[
+ {
+  "cards": [
+   {
+    "card": "Total Books",
+    "parent": "Library Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Books Currently Issued",
+    "parent": "Library Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Overdue Books",
+    "parent": "Library Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   },
+   {
+    "card": "Active Members",
+    "parent": "Library Dashboard",
+    "parentfield": "cards",
+    "parenttype": "Dashboard"
+   }
+  ],
+  "chart_options": "",
+  "charts": [
+   {
+    "chart": "Book Issue Trend",
+    "parent": "Library Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   },
+   {
+    "chart": "Fine Collection Trend",
+    "parent": "Library Dashboard",
+    "parentfield": "charts",
+    "parenttype": "Dashboard",
+    "width": "Half"
+   }
+  ],
+  "dashboard_name": "Library Dashboard",
+  "docstatus": 0,
+  "doctype": "Dashboard",
+  "is_default": 1,
+  "is_standard": 0,
+  "modified": "2026-06-27 09:30:41.809967",
+  "module": null,
+  "name": "Library Dashboard"
+ }
+]
