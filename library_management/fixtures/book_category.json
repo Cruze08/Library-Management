@@ -1,5 +1,21 @@
 [
  {
+  "category_name": "History",
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Book Category",
+  "modified": "2026-06-29 09:11:29.099799",
+  "name": "History"
+ },
+ {
+  "category_name": "Self Help",
+  "description": null,
+  "docstatus": 0,
+  "doctype": "Book Category",
+  "modified": "2026-06-29 09:11:29.101265",
+  "name": "Self Help"
+ },
+ {
   "category_name": "Science",
   "description": null,
   "docstatus": 0,
